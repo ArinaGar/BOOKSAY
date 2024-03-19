@@ -1,0 +1,47 @@
+:root{
+    main-color: #0B61A4;
+    secondary-color: #FFBF00;
+    accent-color: #FF4900;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.text {
+    
+}
+
+.logotip {
+    width: 170px;
+    color: #FFBF00;
+    height: 50px;
+    background-color: #FFBF00;
+    margin-left: 50px;
+}
+.topnav {
+    width: 1488px;
+    color: #0B61A4;
+    height: 50px;
+    background-color: #0B61A4;
+}
+
+header{
+    border: 1px;
+    solid: #ff0000;
+}
+ul { 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+main{
+    border: 1px;
+    solid: green;
+}
+
+footer{
+    border: 1px;
+    solid:blue;
+}
