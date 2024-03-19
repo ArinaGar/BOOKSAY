@@ -2,24 +2,24 @@
     main-color: #0B61A4;
     secondary-color: #FFBF00;
     accent-color: #FF4900;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-}
+}       
 
 .text {
     
 }
 
 .logotip {
-    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
     color: #FFBF00;
     height: 50px;
     background-color: #FFBF00;
     margin-left: 50px;
+    text-align: center;
 }
+
 .topnav {
     width: 1488px;
     color: #0B61A4;
@@ -27,6 +27,23 @@
     background-color: #0B61A4;
 }
 
+.logo_text {
+    padding: 10px 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-variation-settings:"slnt" -10;
+    text-transform: uppercase;
+    color: #FF4900;
+    font-size: 48px;
+    line-height: 100%;
+}
+
+.inter {
+    width: 50px;
+    height: 50px;
+    color:#FF4900;
+    background-color: #FF4900;
+}
 header{
     border: 1px;
     solid: #ff0000;
@@ -42,6 +59,5 @@ main{
 }
 
 footer{
-    border: 1px;
-    solid:blue;
+    border: 1px solid blue;
 }
