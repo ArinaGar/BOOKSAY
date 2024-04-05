@@ -9,9 +9,6 @@
     margin: 0;
 }
 
-.text {
-    
-}
 
 .logotip {
     display: flex;
@@ -61,15 +58,34 @@
     height: 57px;
     background-color: #ffffff ;
     color: #000000;
-    margin-left: 250px;
+    margin-left: 270px;
     border: 1px solid #FF4900;
     text-align: left;
     border-radius: 50pt 50pt ;
     margin-top: 10px ;
-    font-size: 35pt;
-    
+    font-size: 25pt;
+    opacity: .3;
+    font-family: "Inter", sans-serif;
+    font-style: Black;
 }
 
+input {
+    width: 878px;
+    height: 57px;
+    border: 1px solid #FF4900;
+    border-radius: 50pt 50pt ;
+}
+
+.banner {
+    width: 1029px;
+    height: 471px;
+    background-color: orange;
+    color: #D9EDFD;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 50px;
+    border-radius: 20pt;
+}
 header{
     border: 1px solid #FFBF00;
 }
