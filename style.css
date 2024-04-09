@@ -1,8 +1,8 @@
-:root{
+:root {
     --main-color: #0B61A4;
     --secondary-color: #FFBF00;
     --accent-color: #FF4900;
-}       
+}
 
 * {
     padding: 0;
@@ -33,7 +33,7 @@
     padding: 10px 20px;
     font-family: "Inter", sans-serif;
     font-weight: 900;
-    font-variation-settings:"slnt" -10;
+    font-variation-settings: "slnt" -10;
     text-transform: uppercase;
     color: #FF4900;
     font-size: 48px;
@@ -50,30 +50,18 @@
 .blockdop {
     width: max-content;
     height: 10px;
-    background-color: #D9EDFD ;
+    background-color: #D9EDFD;
 }
 
-.search {
-    width: 878px;
-    height: 57px;
-    background-color: #ffffff ;
-    color: #000000;
-    margin-left: 270px;
-    border: 1px solid #FF4900;
-    text-align: left;
-    border-radius: 50pt 50pt ;
-    margin-top: 10px ;
-    font-size: 25pt;
-    opacity: .3;
-    font-family: "Inter", sans-serif;
-    font-style: Black;
-}
+
 
 input {
     width: 878px;
     height: 57px;
     border: 1px solid #FF4900;
-    border-radius: 50pt 50pt ;
+    border-radius: 50pt 50pt;
+    margin-left: 270px;
+    background-color: #ffffff;
 }
 
 .banner {
@@ -86,19 +74,108 @@ input {
     margin-top: 50px;
     border-radius: 20pt;
 }
-header{
+
+header {
     border: 1px solid #FFBF00;
 }
 
-ul { 
+.card {
+    width: 225px;
+    min-height: 350px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    transition: 0.2s;
+    position: relative;
+}
+
+.card:hover {
+    box-shadow: 4px 8px 16px #0B61A4;
+}
+
+.card__top {
+    flex: 0 0 220px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.card__image>img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: 0.2s;
+}
+
+.card__image:hover>img {
+    transform: scale(1.1);
+}
+
+.card__bottom {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    padding: 10px;
+}
+
+.card__prices {
+    display: flex;
+    margin-bottom: 10px;
+    flex: 0 0 50%;
+}
+
+.card__price::after {
+    margin-left: 4px;
+    position: relative;
+}
+
+.card__title {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: black;
+}
+
+.card__add {
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFE189;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #FFE189;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-top: auto;
+}
+
+.card__add:hover {
+    border: 1px solid #ff6633;
+    background-color: #ff6633;
+    color: white;
+}
+
+
+ul {
     width: 100%;
     display: flex;
     flex-direction: row;
 }
-main{
+
+main {
     border: 1px solid green;
 }
 
-footer{
+footer {
     border: 1px solid blue;
 }
