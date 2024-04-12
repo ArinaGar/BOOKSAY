@@ -113,6 +113,13 @@ header {
     transition: 0.2s;
 }
 
+.price__image>img {
+    width: 45px;
+    height: 45px;
+}
+
+
+
 .card__image:hover>img {
     transform: scale(1.1);
 }
@@ -122,6 +129,14 @@ header {
     flex-direction: column;
     flex: 1 0 auto;
     padding: 10px;
+}
+
+.card__price {
+    width: 50px;
+    height: 50px;
+    margin-left: 160px;
+    background-color: transparent;
+    border: 0px;
 }
 
 .card__prices {
@@ -144,15 +159,20 @@ header {
     color: black;
 }
 
+.procedure {
+    float: left;
+    text-align: center;
+}
+
 .card__add {
     display: block;
     width: 100%;
     font-weight: 400;
     font-size: 17px;
-    color: #FFE189;
+    color: #0b62a491;
     padding: 10px;
     text-align: center;
-    border: 1px solid #FFE189;
+    border: 1px solid #0b62a491;
     border-radius: 4px;
     cursor: pointer;
     transition: 0.2s;
@@ -160,8 +180,8 @@ header {
 }
 
 .card__add:hover {
-    border: 1px solid #ff6633;
-    background-color: #ff6633;
+    border: 1px solid #0B61A4;
+    background-color: #0B61A4;
     color: white;
 }
 
