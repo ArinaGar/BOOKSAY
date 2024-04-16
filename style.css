@@ -41,7 +41,7 @@
 }
 
 .block {
-    width: 61488px;
+    width: 1470px;
     height: 700px;
     background-color: #D9EDFD;
     color: #D9EDFD;
@@ -64,6 +64,12 @@ input {
     background-color: #ffffff;
 }
 
+input::placeholder {
+    padding-left: 15px;
+
+}
+
+
 .banner {
     width: 1029px;
     height: 471px;
@@ -79,11 +85,15 @@ header {
     border: 1px solid #FFBF00;
 }
 
+main {
+    height: 100%;
+}
+
 .card {
     width: 225px;
-    min-height: 350px;
+    /*min-height: 350px;*/
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
-    display: flex;
+    display: block;
     flex-direction: column;
     border-radius: 4px;
     transition: 0.2s;
@@ -118,7 +128,7 @@ header {
     height: 45px;
 }
 
-
+.price__image
 
 .card__image:hover>img {
     transform: scale(1.1);
@@ -160,7 +170,6 @@ header {
 }
 
 .procedure {
-    float: left;
     text-align: center;
 }
 
@@ -176,13 +185,18 @@ header {
     border-radius: 4px;
     cursor: pointer;
     transition: 0.2s;
-    margin-top: auto;
+    margin-top: 10px;
 }
 
 .card__add:hover {
     border: 1px solid #0B61A4;
     background-color: #0B61A4;
     color: white;
+}
+
+.procedure {
+    display: flex;
+    flex-direction: row;
 }
 
 
@@ -192,9 +206,7 @@ ul {
     flex-direction: row;
 }
 
-main {
-    border: 1px solid green;
-}
+
 
 footer {
     border: 1px solid blue;
