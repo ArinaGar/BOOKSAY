@@ -22,8 +22,20 @@
     text-align: center;
 }
 
+.catalog {
+    padding: 10px 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-variation-settings: "slnt" -10;
+    text-transform: uppercase;
+    color: #FFBF00;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: right;
+}
+
 .topnav {
-    width: 1488px;
+    width: 100%;
     color: #0B61A4;
     height: 50px;
     background-color: #0B61A4;
@@ -41,7 +53,7 @@
 }
 
 .block {
-    width: 1470px;
+    width: 100%;
     height: 700px;
     background-color: #D9EDFD;
     color: #D9EDFD;
@@ -60,7 +72,6 @@ input {
     height: 57px;
     border: 1px solid #FF4900;
     border-radius: 50pt 50pt;
-    margin-left: 270px;
     background-color: #ffffff;
 }
 
@@ -69,6 +80,12 @@ input::placeholder {
 
 }
 
+.search {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
 
 .banner {
     width: 1029px;
@@ -76,7 +93,8 @@ input::placeholder {
     background-color: orange;
     color: #D9EDFD;
     align-items: center;
-    margin-left: 200px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
     border-radius: 20pt;
 }
@@ -185,7 +203,7 @@ main {
     border-radius: 4px;
     cursor: pointer;
     transition: 0.2s;
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .card__add:hover {
@@ -203,7 +221,9 @@ main {
 ul {
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
+    list-style: none;
+
 }
 
 
