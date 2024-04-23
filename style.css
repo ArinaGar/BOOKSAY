@@ -39,6 +39,27 @@
     color: #0B61A4;
     height: 50px;
     background-color: #0B61A4;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    color: #FFBF00;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #FFBF00;
+    color: #0B61A4;
+}
+
+
+.topnav a.active {
+    background-color: #0B61A4;
+    color: white;
 }
 
 .logo_text {
@@ -84,7 +105,7 @@ input::placeholder {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-
+justify-content: center;
 }
 
 .banner {
@@ -218,13 +239,6 @@ main {
 }
 
 
-ul {
-    width: 100%;
-    display: flex;
-    flex-direction: row; 
-    list-style: none;
-
-}
 
 
 
