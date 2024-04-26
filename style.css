@@ -129,8 +129,7 @@ main {
 }
 
 .card {
-    width: 225px;
-    /*min-height: 350px;*/
+    width: 20%;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
     display: block;
     flex-direction: column;
@@ -163,8 +162,8 @@ main {
 }
 
 .price__image>img {
-    width: 45px;
-    height: 45px;
+    width: 100%;
+    height: 90%;
 }
 
 .price__image
@@ -209,6 +208,10 @@ main {
 }
 
 .procedure {
+    text-align: center;
+}
+
+.sorting {
     text-align: center;
 }
 
