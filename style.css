@@ -155,8 +155,8 @@ main {
 }
 
 .card__image>img {
-    width: 100%;
-    height: 100%;
+    width: 184px;
+    height: 220px;
     object-fit: contain;
     transition: 0.2s;
 }
@@ -170,6 +170,8 @@ main {
 
 .card__image:hover>img {
     transform: scale(1.1);
+    max-width: 220px;
+    max-height: 184px;
 }
 
 .card__bottom {
@@ -209,6 +211,8 @@ main {
 
 .procedure {
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .sorting {
@@ -241,7 +245,16 @@ main {
     flex-direction: row;
 }
 
-
+.comment {
+    height: 600px;
+    width: 1200px;
+    color: #549cd3;
+    background-color: #549cd3;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    margin-top: 100px;
+}
 
 
 
