@@ -110,7 +110,7 @@ input::placeholder {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-justify-content: center;
+    justify-content: center;
 }
 
 .banner {
@@ -167,9 +167,7 @@ main {
     height: 90%;
 }
 
-.price__image
-
-.card__image:hover>img {
+.price__image .card__image:hover>img {
     transform: scale(1.1);
     max-width: 220px;
     max-height: 184px;
@@ -257,7 +255,25 @@ main {
     margin-top: 100px;
 }
 
+.comment_image>img {
+    height: 250px;
+    margin-top: 5%;
+    margin-left: -5%;
+}
 
+.next_image>img {
+    margin-left: -40%;
+}
+
+.comment>p {
+    color: black;
+    font-size: 50px;
+    margin-left: 5%;
+}
+
+.next_right>img {
+    margin-left: 87%;
+}
 
 footer {
     border: 1px solid blue;
