@@ -9,6 +9,10 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 .logotip {
     display: flex;
@@ -42,7 +46,8 @@
     overflow: hidden;
 }
 
-.topnav a {
+.topnav>a {
+    height: 100%;
     float: right;
     color: #FFBF00;
     text-align: center;
@@ -63,7 +68,7 @@
 }
 
 .logo_text {
-    padding: 10px 20px;
+    padding: 0 20px;
     font-family: "Inter", sans-serif;
     font-weight: 900;
     font-variation-settings: "slnt" -10;
@@ -118,10 +123,6 @@ justify-content: center;
     margin-right: auto;
     margin-top: 50px;
     border-radius: 20pt;
-}
-
-header {
-    border: 1px solid #FFBF00;
 }
 
 main {
