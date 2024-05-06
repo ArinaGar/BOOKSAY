@@ -91,8 +91,6 @@ a {
     background-color: #D9EDFD;
 }
 
-
-
 input {
     width: 878px;
     height: 57px;
@@ -103,36 +101,66 @@ input {
 
 input::placeholder {
     padding-left: 15px;
-
 }
 
 .search {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-justify-content: center;
+    justify-content: center;
 }
 
 .banner {
     width: 1029px;
     height: 471px;
-    background-color: orange;
     color: #D9EDFD;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     border-radius: 20pt;
+    background-image: url('img/Background_banner.png');
+    background-size: cover;
+    background-position: center;
+    border: 15px solid orange;
 }
 
 main {
     height: 100%;
 }
 
-.card {
-    width: 20%;
+/*.procedure {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}*/
+
+.procedure {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, 250px);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 30px;
+    gap: 50px;
+}
+
+
+/*.card {
+    height: 100%;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
     display: block;
+    flex-direction: column;
+    border-radius: 4px;
+    transition: 0.2s;
+    position: relative;
+}*/
+
+.card {
+    text-align: center;
+    height: 100%;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: block;
+    justify-content: space-evenly;
     flex-direction: column;
     border-radius: 4px;
     transition: 0.2s;
@@ -167,8 +195,6 @@ main {
     height: 90%;
 }
 
-.price__image
-
 .card__image:hover>img {
     transform: scale(1.1);
     max-width: 220px;
@@ -202,6 +228,7 @@ main {
 }
 
 .card__title {
+    height: 50px;
     display: block;
     margin-bottom: 10px;
     font-weight: 400;
@@ -210,11 +237,6 @@ main {
     color: black;
 }
 
-.procedure {
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .sorting {
     text-align: center;
@@ -241,11 +263,6 @@ main {
     color: white;
 }
 
-.procedure {
-    display: flex;
-    flex-direction: row;
-}
-
 .comment {
     height: 600px;
     width: 1200px;
@@ -256,8 +273,6 @@ main {
     border-radius: 40px;
     margin-top: 100px;
 }
-
-
 
 footer {
     border: 1px solid blue;
