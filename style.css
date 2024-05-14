@@ -270,6 +270,25 @@ main {
     font-size: 50px;
     margin-left: 5%;
 }
+
+p#commment_book {
+    width: 60px;
+}
+
+.next_right>img {
+    width: 5%;
+    height: 10%;
+    margin-left: 600px; 
+    margin-top: -100px;
+}
+
+.next_left>img {
+    width: 5%;
+    height: 10%;
+    margin-left: -1130px;
+    margin-top: -300px;
+}
+
 .comment_add {
     display: block;
     width: 30%;
@@ -282,11 +301,10 @@ main {
     border-radius: 4px;
     cursor: pointer;
     transition: 0.2s;
-    margin-bottom: 10px;
     background-color: #FFBF00;
     font-size: 30px;
     margin-left: 65%;
-    margin-top: 10%;
+    margin-top: -55px;
 }
 
 .comment_add:hover {
@@ -295,15 +313,15 @@ main {
     color: #692509
 }
 
-.next_right>img {
-    margin-left: 87%;
-}
-.comment_add>input {
-    width: 20%;
-    height: 10%;
+
+.type_comment>input {
+    width: 500px;
+    height: 50px;
     border: 1px solid #0B61A4;
     border-radius: 50pt 50pt;
     background-color: #ffffff;
+    margin-top: 100px;
+    margin-left: 50px;
 }
 
 footer {
